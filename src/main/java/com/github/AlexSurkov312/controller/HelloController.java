@@ -1,4 +1,4 @@
-package com.github.Alex_Surkov312.controller;
+package com.github.AlexSurkov312.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

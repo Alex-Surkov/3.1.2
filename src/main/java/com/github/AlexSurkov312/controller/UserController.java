@@ -1,7 +1,7 @@
-package com.github.Alex_Surkov312.controller;
+package com.github.AlexSurkov312.controller;
 
-import com.github.Alex_Surkov312.model.User;
-import com.github.Alex_Surkov312.service.UserService;
+import com.github.AlexSurkov312.model.User;
+import com.github.AlexSurkov312.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

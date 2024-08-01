@@ -1,8 +1,8 @@
-package com.github.Alex_Surkov312.service;
+package com.github.AlexSurkov312.service;
 
 
-import com.github.Alex_Surkov312.dao.UserDao;
-import com.github.Alex_Surkov312.model.User;
+import com.github.AlexSurkov312.dao.UserDao;
+import com.github.AlexSurkov312.model.User;
 import org.hibernate.HibernateException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
     private final UserDao dao;
 
     @Autowired
-    UserServiceImpl(UserDao dao) {
+    public UserServiceImpl(UserDao dao) {
         this.dao = dao;
     }
 

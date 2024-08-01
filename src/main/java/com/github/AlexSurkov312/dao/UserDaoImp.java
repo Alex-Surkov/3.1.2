@@ -1,6 +1,6 @@
-package com.github.Alex_Surkov312.dao;
+package com.github.AlexSurkov312.dao;
 
-import com.github.Alex_Surkov312.model.User;
+import com.github.AlexSurkov312.model.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;

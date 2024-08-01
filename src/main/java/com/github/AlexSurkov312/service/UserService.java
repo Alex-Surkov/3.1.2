@@ -1,11 +1,10 @@
-package com.github.Alex_Surkov312.dao;
+package com.github.AlexSurkov312.service;
 
-
-import com.github.Alex_Surkov312.model.User;
+import com.github.AlexSurkov312.model.User;
 
 import java.util.List;
 
-public interface UserDao {
+public interface UserService {
 
     void saveUser(String name, String lastName, int age);
 
