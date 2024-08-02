@@ -23,22 +23,22 @@ public class UserServiceImpl implements UserService {
     }
 
     @Transactional
+    @Override
     public void saveUser(String name, String lastName, int age) throws HibernateException {
         dao.saveUser(name, lastName, age);
     }
 
     @Transactional
+    @Override
     public void removeUserById(long id) throws HibernateException {
         dao.removeUserById(id);
     }
 
-    @Transactional
+    @Override
     public List<User> getAllUsers() throws HibernateException {
         return dao.getAllUsers();
     }
 
-
-    @Transactional
     @Override
     public User getUser(long id) {
         return dao.getUser(id);
